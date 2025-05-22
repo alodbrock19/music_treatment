@@ -1,0 +1,36 @@
+# Python virtual environment
+venv/
+env/
+ENV/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# IDE specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+## Spleeter specific
+#pretrained_models/
+#
+## Audio files
+#input/*
+#output/*
+#!input/.gitkeep
+#!output/.gitkeep
+
+# Windows specific
+*.Zone.Identifier
+
+# Logs and databases
+*.log
+*.sqlite3
